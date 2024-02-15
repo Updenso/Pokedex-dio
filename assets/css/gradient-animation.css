@@ -1,0 +1,30 @@
+body {
+    background: linear-gradient(133deg, #df311f, #102bc1, #a2f3de);
+    background-size: 600% 600%;
+
+    -webkit-animation: body 9s ease infinite;
+    -moz-animation: body 9s ease infinite;
+    -o-animation: body 9s ease infinite;
+    animation: body 9s ease infinite;
+}
+
+@-webkit-keyframes body {
+    0%{background-position:0% 66%}
+    50%{background-position:100% 35%}
+    100%{background-position:0% 66%}
+}
+@-moz-keyframes body {
+    0%{background-position:0% 66%}
+    50%{background-position:100% 35%}
+    100%{background-position:0% 66%}
+}
+@-o-keyframes body {
+    0%{background-position:0% 66%}
+    50%{background-position:100% 35%}
+    100%{background-position:0% 66%}
+}
+@keyframes body {
+    0%{background-position:0% 66%}
+    50%{background-position:100% 35%}
+    100%{background-position:0% 66%}
+}
